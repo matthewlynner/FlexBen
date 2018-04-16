@@ -17,11 +17,37 @@
  You can add your customizations below
 */
 
+/*********MENU/HEADER*******/
+
+
+.main-menu li a {
+  font-size: 1.5em;
+  padding-right: 45px;
+}
+
+/********END*******/
 
 /****INSURANCE PRODUCTS*******/
 
 #section-features > div {
   text-align: center;
+}
+
+.sec-feature-figure i {
+  border: none;
+}
+
+.sec-feature-figure i:before {
+  font-size: 4em;
+}
+
+.sec-feature > *:last-child {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.hs-secondary-small {
+  font-size: 1.5em;
 }
 
 /***********END*************/
