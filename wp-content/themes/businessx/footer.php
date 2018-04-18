@@ -15,6 +15,10 @@
 			 */
 			do_action( 'businessx_main__footer' );
 			?>
+			
+			<p class="custom-footer">
+				Flexible Benefit Consulting &copy; 2018
+			</p>
 
 		</footer>
 

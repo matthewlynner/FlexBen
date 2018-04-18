@@ -50,4 +50,16 @@
   font-size: 1.5em;
 }
 
-/***********END*************/
+/************FOOTER***********/
+
+#main-footer > div.footer-credits > div > div.footer-creds-copyright {
+  display: none;
+}
+
+#main-footer > p {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+
+/******((()))*****END*************/
