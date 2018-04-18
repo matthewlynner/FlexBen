@@ -20,10 +20,12 @@
 /*********MENU/HEADER*******/
 
 
-.main-menu li a {
-  font-size: 1.5em;
-  padding-right: 45px;
+.main-menu li a,
+.main-menu > li.menu-item-has-children > a {
+  font-size: 1.25em;
+  margin-right: 45px;
 }
+
 
 /********END*******/
 
@@ -39,11 +41,6 @@
 
 .sec-feature-figure i:before {
   font-size: 4em;
-}
-
-.sec-feature > *:last-child {
-    margin-bottom: 0;
-    margin-top: 30px;
 }
 
 .hs-secondary-small {
@@ -62,4 +59,11 @@
   margin-top: 10px;
 }
 
+#main-footer > div.footer-credits > div {
+  background-color: white;
+}
+
+#main-footer > div.footer-credits {
+  background-color: white;
+}
 /******((()))*****END*************/
