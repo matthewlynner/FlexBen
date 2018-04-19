@@ -130,4 +130,13 @@ table.insurance-table {
 #main-footer > div.footer-credits {
   background-color: white;
 }
+
+.footer-creds-menu li a {
+  color: black;
+  font-size: 1.25em;
+}
+
+.footer-creds-menu li a:hover {
+  color: #444444;
+}
 /***********END*************/
