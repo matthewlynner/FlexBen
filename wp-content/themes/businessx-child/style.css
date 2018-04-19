@@ -47,6 +47,49 @@
   font-size: 1.5em;
 }
 
+
+/************INSURANCE PAGE***********/
+
+#wrapper {
+     width: 100%;
+     margin: 0 auto;
+}
+#leftcolumn, #rightcolumn {
+    text-align: center;
+    border: none;
+    float: left;
+    min-height: 450px;
+    color: white;
+    margin-top: 30px;
+}
+#leftcolumn {
+     width: 40%;
+     background-color: white;
+     margin-right: 10%;
+}
+#rightcolumn {
+     width: 40%;
+     background-color: white;
+}
+
+@media only screen and (max-width: 565px) {
+    #rightcolumn {
+      width: 100%;
+    }
+    #leftcolumn {
+      width: 100%;
+    }
+}
+
+p {
+  color: #414141;
+  font-family: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+/************END***********/
+
 /************FOOTER***********/
 
 #main-footer > div.footer-credits > div > div.footer-creds-copyright {
