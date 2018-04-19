@@ -54,21 +54,33 @@
      width: 100%;
      margin: 0 auto;
 }
+
 #leftcolumn, #rightcolumn {
     text-align: center;
-    border: none;
+    border: 1px solid white;
     float: left;
     min-height: 450px;
-    color: white;
     margin-top: 30px;
 }
+
 #leftcolumn {
-     width: 40%;
+     width: 45%;
      background-color: white;
      margin-right: 10%;
 }
+
+#rightcolumn h2 {
+  padding-top: 1em;
+  margin-top: .1em;
+}
+
+#leftcolumn h2 {
+  padding-top: 1.9em;
+  margin-top: 1em;
+}
+
 #rightcolumn {
-     width: 40%;
+     width: 45%;
      background-color: white;
 }
 
@@ -81,12 +93,21 @@
     }
 }
 
-p {
-  color: #414141;
-  font-family: inherit;
-  line-height: inherit;
-  font-weight: inherit;
+table.insurance-table {
+  padding-top: 4em;
+  border: none;
 }
+
+.insurance-container td {
+  border: 1px solid gray;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.post-single h3, .comment-content h3 {
+  font-size: 1.1em;
+}
+
 
 /************END***********/
 
@@ -109,4 +130,4 @@ p {
 #main-footer > div.footer-credits {
   background-color: white;
 }
-/******((()))*****END*************/
+/***********END*************/
